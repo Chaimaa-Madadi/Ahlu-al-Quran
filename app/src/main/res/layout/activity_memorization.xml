@@ -54,8 +54,7 @@
                     android:text="سورة الحج"
                     android:textColor="#A98547"
                     android:textSize="20sp"
-                    android:gravity="start" /> <!-- Right aligned -->
-
+                    android:gravity="start" /> 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -63,7 +62,7 @@
                     android:textColor="#AAAAAA"
                     android:textSize="14sp"
                     android:layout_marginTop="4dp"
-                    android:gravity="start" /> <!-- Right aligned -->
+                    android:gravity="start" /> 
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
@@ -88,7 +87,7 @@
             android:textColor="#FFFFFF"
             android:layout_marginTop="24dp"
             android:gravity="start"
-            android:textStyle="bold"/> <!-- Right aligned -->
+            android:textStyle="bold"/> 
 
         
         <androidx.cardview.widget.CardView
@@ -121,7 +120,7 @@
             android:layout_marginTop="16dp"
             android:backgroundTint="#A98547"
             android:shape="@drawable/rounded_button"
-            android:padding="12dp"/> <!-- Rounded button background -->
+            android:padding="12dp"/> 
 
        
         <TextView
