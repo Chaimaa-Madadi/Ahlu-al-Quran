@@ -8,6 +8,7 @@
     android:fillViewport="true">
 
     <LinearLayout
+        android:id="@+id/main"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
@@ -99,7 +100,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="المفضلة"
+                        android:text="التحفيظ"
                         android:textColor="#ffffff"
                         android:textSize="16sp"
                         android:fontFamily="sans-serif-medium"
@@ -170,12 +171,12 @@
 
                     <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="دعاء اليوم"
-                        android:textColor="#ffffff"
-                        android:textSize="16sp"
+                        android:layout_height="29dp"
                         android:fontFamily="sans-serif-medium"
-                        android:paddingTop="8dp"/>
+                        android:paddingTop="8dp"
+                        android:text="المفضلة"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
         </GridLayout>
@@ -205,10 +206,10 @@
                     android:textSize="24sp"
                     android:textStyle="bold"
                     android:fontFamily="sans-serif-medium"
-                    android:gravity="right"
                     android:textAlignment="viewEnd"
                     android:paddingRight="8dp"
-                    android:paddingBottom="12dp"/>
+                    android:paddingBottom="12dp"
+                    tools:ignore="RtlCompat" />
 
                 <!-- Dua Text -->
                 <TextView
@@ -220,7 +221,8 @@
                     android:lineSpacingExtra="8dp"
                     android:fontFamily="sans-serif"
                     android:gravity="right"
-                    android:textAlignment="viewEnd"/>
+                    android:textAlignment="viewEnd"
+                    tools:ignore="RtlCompat" />
 
                 <!-- Source or Year -->
                 <TextView

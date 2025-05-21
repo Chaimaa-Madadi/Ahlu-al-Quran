@@ -17,8 +17,8 @@
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:src="@drawable/ic_arrow_back"
-            android:tint="#FFFFFF"
-            android:layout_gravity="start" />
+            android:layout_gravity="start"
+            app:tint="#FFFFFF" />
 
         
         <TextView
