@@ -102,7 +102,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="الأنبياء\n.....................................................................ِ"
+                android:text="الأنبياء\nاقْتَرَبَ لِلنَّاسِ حِسَابُهُمْ وَهُمْ فِي غَفْلَةٍ مُّعْرِضُونَ"
                 android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:lineSpacingExtra="6dp"
